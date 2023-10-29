@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Shop 2.0</title>
+    <link rel="stylesheet" href="PizzaShop.css">
+</head>
+<body>
+    <table>
+        <tr>
+           <th colspan="2"><h3>Pizza Shop 2.0</h3></th> 
+        </tr>
+        <tr>
+        <td>
+            <label for="name">Name</label>
+        </td>
+        <td>
+            <input type="text" id="name">
+        </td>
+    </tr>
+    <tr>
+        <td>
+           <label for="Topping">Pizza Topping</label>
+        </td>
+        <td >
+            <input type="radio" name="Topping" id="Supreme">
+            <label for="Supreme">Supreme</label>
+            <br>
+            <input type="radio" name="Topping" id="Vegetaranian">
+            <label for="Vegetaranian">Vegetaranian</label>
+            <br>
+            <input type="radio" name="Topping" id="Hawaiian">
+            <label for="Hawaiian">Hawaiian</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="Sauce">Pizza Sauce</label>
+        </td>
+        <td>
+            <select name="Sauce" id="Sauce">
+                <option value="Tomato">Tomato</option>
+                <option value="Pesto">Pesto</option>
+                <option value="No Sauce">No Sauce</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="Optional Extras">Optional Extras</label>
+        </td>
+        <td>
+            <label for="Extra Cheese">Extra Cheese</label>
+            <input type="checkbox" id="Extra Cheese">
+            <label for="Free Base">Free Base</label>
+            <input type="checkbox" id="Free Base">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <label for="Instructions">Instructions:</label> 
+            <br>
+            <textarea id="Instructions" style="width: 98%"></textarea>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+        <button>Send My order</button>
+        </td>
+    </tr>
+    </table>
+</body>
+</html>

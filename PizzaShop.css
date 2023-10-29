@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url(pizza.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: black;
+    font-weight: bold;
+    font-family: Verdana, sans-serif;
+}
+
+table{
+    border: 2px solid rgb(172, 4, 4);
+    backdrop-filter: blur(15px);
+    width: 30%;
+    height: 50%;
+    border-spacing: 0;
+    border-collapse: collapse;
+    transition: background-color 0.3s ease;
+    background-color: hsl(0, 100%, 37%, 0.2);
+    transition: box-shadow 0.3s ease;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
+}
+table:hover {
+    background-color: hsl(0, 100%, 37%, 0.4); 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+h3{
+    text-shadow: 3px 3px 5px hsl(0, 100%, 62%);
+}
+
+input[type="checkbox"],
+input[type="radio"],
+input[type="text"],
+textarea{
+    opacity: 0.4;
+}
+
+select{
+    color: black;
+    min-height: 30px;
+    width: 120px;
+    font-size: 16px;
+    font-weight: bold;
+    opacity: 0.4;
+    margin: 5px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+select option{
+    background-color: hsl(0, 13%, 69%);
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+th,
+td{
+    border: 2px solid rgb(172, 4, 4);
+}
+
+button{
+    border-radius: 20px;
+    background: transparent;
+    cursor: pointer;
+    margin: 0 auto; 
+    display: block;
+    width: 50%;
+    height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: hsl(120, 98%, 40%);
+    opacity: 0.8;
+}
